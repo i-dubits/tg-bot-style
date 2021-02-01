@@ -1,18 +1,13 @@
-
-
-<img src="https://junyanz.github.io/CycleGAN/images/teaser_high_res.jpg" width="800"/>
-
 # tg-bot-style
 This bot performs style transfer using either [Neural Style Transfer](https://arxiv.org/abs/1508.06576) or [CycleGan](https://arxiv.org/abs/1703.10593) techniques. 
 
 Neural Style Transfer (NST) algorithm receives two images as input. One of them is considered as "content" which should be modified while the other is treated as "style" which should be applied to "content". The algorithm learns on the fly for each new content-style pair, so it is relatively slow alhtough has a high flexibility. In order to reduce execution time the size of the output image is set to 128 by 128 pixels. NST module is taken from official [Pytorch manual](https://pytorch.org/tutorials/advanced/neural_style_tutorial.html) with minor changes. It is located in [NST](nst) folder.
 
-EXAMPLE IMAGE
 
 <p float="left">
-<img src="./images/cat.jpg" width="300"/>
-<img src="./images/cat_result.jpg" width="300"/>
-<img src="./images/kand_style.jpg" width="300"/>
+<img src="./imgs/cat.jpg" width="300"/>
+<img src="./imgs/cat_result.jpg" width="300"/>
+<img src="./imgs/kand_style.jpg" width="300"/>
 </p>
 
 
