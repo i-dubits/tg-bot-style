@@ -1,4 +1,4 @@
-TOKEN = '' # your token should bу here
+TOKEN = '' # your token should be here
 
 file_path_to_download = './images/'
 
