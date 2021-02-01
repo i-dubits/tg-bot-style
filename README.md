@@ -9,6 +9,12 @@ Neural Style Transfer (NST) algorithm receives two images as input. One of them 
 
 EXAMPLE IMAGE
 
+<p float="left">
+<img src="./imgs/landscape-test.jpg" width="400"/>
+<img src="./imgs/landscape-test_conv.jpg" width="400"/>
+</p>
+
+
 <img src="./imgs/landscape-test.jpg" width="400"/>
 <img src="./imgs/landscape-test_conv.jpg" width="400"/>
 
