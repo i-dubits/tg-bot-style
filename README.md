@@ -15,9 +15,6 @@ EXAMPLE IMAGE
 </p>
 
 
-<img src="./imgs/landscape-test.jpg" width="400"/>
-<img src="./imgs/landscape-test_conv.jpg" width="400"/>
-
 CycleGan transforms summer landscapes into winter ones. The pretrained network is taken from the [official repository](https://github.com/junyanz/pytorch-CycleGAN-and-pix2pix). The network was trained on Yosemite National Park images so the model should work best with similar images.  
 
 EXAMPLE IMAGE
