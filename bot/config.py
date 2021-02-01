@@ -1,14 +1,10 @@
-TOKEN = '1547095730:AAEmJ5vOThCFe-G1-YAGVqGQGlsuTuy54Qo'
+TOKEN = '' # your token should bу here
 
-file_path_to_download = 'd:/My Documents/Обучение после аспирантуры/ML/Курс Stepik Deep learning/Проект/Bot_ver_3/images/'
-
-
-#checkpoint_dir = 'd:/temp/CycleGan/pytorch-CycleGAN-and-pix2pix-master/scripts/checkpoints/'
-checkpoint_dir = 'd:/My Documents/Обучение после аспирантуры/ML/Курс Stepik Deep learning/Проект/Bot_ver_3/scripts/checkpoints/'
+file_path_to_download = './images/'
 
 
-#data_root_cycle_gan = 'd:/temp/CycleGan/summer2winter_yosemite_2'
-#data_root_cycle_gan = 'd:/My Documents/Обучение после аспирантуры/ML/Курс Stepik Deep learning/Проект/Bot_ver_3/images/test'
 
+checkpoint_dir = './scripts/checkpoints/'
 
-nst_state_dict = 'd:/My Documents/Обучение после аспирантуры/ML/Курс Stepik Deep learning/Проект/Bot_ver_3/nst/vgg19-dcbb9e9d.pth'
+nst_state_dict = './nst/vgg19-dcbb9e9d.pth' # you should download an vgg19 dict from here https://download.pytorch.org/models/vgg19-dcbb9e9d.pth
+                                           
