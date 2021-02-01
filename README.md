@@ -10,14 +10,18 @@ Neural Style Transfer (NST) algorithm receives two images as input. One of them 
 EXAMPLE IMAGE
 
 <p float="left">
-<img src="./imgs/landscape-test.jpg" width="400"/>
-<img src="./imgs/landscape-test_conv.jpg" width="400"/>
+<img src="./images/cat.jpg" width="300"/>
+<img src="./images/cat_result.jpg" width="300"/>
+<img src="./images/kand_style.jpg" width="300"/>
 </p>
 
 
 CycleGan transforms summer landscapes into winter ones. The pretrained network is taken from the [official repository](https://github.com/junyanz/pytorch-CycleGAN-and-pix2pix). The network was trained on Yosemite National Park images so the model should work best with similar images.  
 
-EXAMPLE IMAGE
+<p float="left">
+<img src="./imgs/landscape-test.jpg" width="400"/>
+<img src="./imgs/landscape-test_conv.jpg" width="400"/>
+</p>
 
 Bot is written using [AIOGram](https://github.com/aiogram/aiogram) asynchronous framework. It is located in [bot](bot) folder. You should change paths in [config](bot/config.py) file in order to run it on your system. Do not forget to add your Telegram token as well. 
 
