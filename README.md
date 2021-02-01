@@ -9,7 +9,7 @@ Neural Style Transfer (NST) algorithm receives two images as input. One of them 
 
 EXAMPLE IMAGE
 
-<img src="https://github.com/i-dubits/tg-bot-style/tree/main/imgs/landscape-test.jpg">
+<img src="./imgs/landscape-test.jpg">
 
 CycleGan transforms summer landscapes into winter ones. The pretrained network is taken from the [official repository](https://github.com/junyanz/pytorch-CycleGAN-and-pix2pix). The network was trained on Yosemite National Park images so the model should work best with similar images.  
 
