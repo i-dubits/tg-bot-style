@@ -1,7 +1,7 @@
 # tg-bot-style
 This bot performs style transfer using either [Neural Style Transfer](https://arxiv.org/abs/1508.06576) or [CycleGan](https://arxiv.org/abs/1703.10593) techniques. 
 
-**Neural Style Transfer (NST)** algorithm receives two images as input. One of them is considered as "content" which should be modified while the other is treated as "style" which should be applied to "content". The algorithm learns on the fly for each new content-style pair, so it is relatively slow alhtough has a high flexibility. In order to reduce execution time the size of the output image is set to 128 by 128 pixels. NST module is taken from official [Pytorch manual](https://pytorch.org/tutorials/advanced/neural_style_tutorial.html) with minor changes. It is located in [NST](nst) folder.
+**Neural Style Transfer (NST)** algorithm receives two images as input. One of them is considered as "content" which should be modified while the other is treated as "style" which should be applied to "content". The algorithm learns on the fly for each new content-style pair, so it is relatively slow although has a high flexibility. In order to reduce execution time the size of the output image is set to 128 by 128 pixels. NST module is taken from official [Pytorch manual](https://pytorch.org/tutorials/advanced/neural_style_tutorial.html) with minor changes. It is located in [NST](nst) folder.
 
 
 <p float="left">
@@ -18,8 +18,6 @@ This bot performs style transfer using either [Neural Style Transfer](https://ar
 <img src="./imgs/landscape-test_conv.jpg" width="400"/>
 </p>
 
-Bot is written using [AIOGram](https://github.com/aiogram/aiogram) asynchronous framework. It is located in [bot](bot) folder. You should change paths in [config](bot/config.py) file in order to run it on your system. Do not forget to add your Telegram token as well. 
-
-MAIN FILE for bot initialization - my_bot_ver_2.py
+**Telegram bot** is written using [AIOGram](https://github.com/aiogram/aiogram) asynchronous framework. It is located in [bot](bot) folder. You should change paths in [config](bot/config.py) file in order to run it on your system. Do not forget to add your Telegram token as well. Main entry point for bot initialization is [main.py](main.py) file. Bot name is "@style_transfer354_bot". 
 
 
