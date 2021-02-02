@@ -18,6 +18,6 @@ This bot performs style transfer using either [Neural Style Transfer](https://ar
 <img src="./imgs/landscape-test_conv.jpg" width="400"/>
 </p>
 
-**Telegram bot** is written using [AIOGram](https://github.com/aiogram/aiogram) asynchronous framework. It is located in [bot](bot) folder. You should change paths in [config](bot/config.py) file in order to run it on your system. Do not forget to add your Telegram token as well. Main entry point for bot initialization is [main.py](main.py) file. Bot name is "@style_transfer354_bot". 
+**Telegram bot** is written using [AIOGram](https://github.com/aiogram/aiogram) asynchronous framework. It is located in [bot](bot) folder. You should change paths in [config](bot/config.py) file in order to run it on your system. Do not forget to add your Telegram token as well. Main entry point for bot initialization is [main.py](main.py) file. Bot name is @style_transfer354_bot. 
 
 
