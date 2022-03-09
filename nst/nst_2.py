@@ -33,7 +33,7 @@ class Image_proc():
         self.device = device
         self.loader = transforms.Compose([                 
             transforms.Resize(imsize),  # scale imported image
-            transforms.CenterCrop(imsize),
+            #transforms.CenterCrop(imsize),
             transforms.ToTensor()])   
 
     async def image_loader(self, image_name):
